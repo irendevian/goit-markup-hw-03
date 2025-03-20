@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #434455;
   background: #fff;
   line-height: 1.5;
@@ -11,16 +11,40 @@ a {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  width: 1158px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
 }
 
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #4d5ae5;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding: 24px 0;
+  margin-bottom: 16px;
 }
 
 .logo-header {
@@ -32,6 +56,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .menu-links .link {
@@ -49,6 +74,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .contact-links .link {
@@ -62,6 +88,7 @@ ul {
 
 .hero {
   background: #2e2f42;
+  height: 600px;
 }
 
 .title {
@@ -71,6 +98,10 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  padding-top: 188px;
+  padding-bottom: 48px;
+  width: 496px;
+  margin: 0 auto;
 }
 
 .btn {
@@ -81,6 +112,10 @@ ul {
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
+  padding: 16px 32px;
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
 }
 
 .btn:hover,
@@ -94,6 +129,9 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 
 .text {
@@ -102,6 +140,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding-bottom: 32px;
 }
 
 .section-team {
@@ -116,10 +155,24 @@ ul {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  padding-top: 120px;
+  padding-bottom: 72px;
+}
+
+.advantages-list {
+  margin: 120px 156px;
+}
+
+.advantages-list-list {
+  margin-left: 24px;
 }
 
 .team-list-item {
   background-color: #ffffff;
+}
+
+.team-list {
+  padding-bottom: 120px;
 }
 
 .footer {
@@ -133,4 +186,8 @@ ul {
 .text-footer {
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  padding-top: 16px;
+  padding-bottom: 100px;
+  width: 264px;
+  height: 72px;
 }
