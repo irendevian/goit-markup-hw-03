@@ -18,8 +18,8 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        <nav>
+      <div class="container header-list">
+        <nav class="nav-list">
           <a class="logo" href="./index.html"
             >Web<span class="logo-header">Studio</span></a
           >
@@ -30,7 +30,7 @@
           </ul>
         </nav>
         <address class="contact-links">
-          <ul>
+          <ul class="contact-links-list">
             <li>
               <a class="link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -54,30 +54,30 @@
       <!-- Advantages -->
       <section>
         <div class="container">
-          <h2 class="section-title" hidden>Advantages</h2>
+          <h2 class="section-title visually-hidden">Advantages</h2>
           <ul class="advantages-list">
-            <li class="advantages-list-list">
+            <li>
               <h3 class="content-title">Strategy</h3>
               <p class="text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li class="advantages-list-list">
+            <li>
               <h3 class="content-title">Punctuality</h3>
               <p class="text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li class="advantages-list-list">
+            <li>
               <h3 class="content-title">Diligence</h3>
               <p class="text">
                 Research and confirm brands with the strongest digital growth
                 opportunities and minimize risk.
               </p>
             </li>
-            <li class="advantages-list-list">
+            <li>
               <h3 class="content-title">Technologies</h3>
               <p class="text">
                 Design practice focused on digital experiences. We bring forth a
@@ -99,8 +99,8 @@
                 width="264"
                 height="260"
               />
-              <h3 class="content-title">Mark Guerrero</h3>
-              <p class="text">Product Designer</p>
+              <h3 class="content-title content-title-team">Mark Guerrero</h3>
+              <p class="text text-team">Product Designer</p>
             </li>
             <li class="team-list-item">
               <img
@@ -109,8 +109,8 @@
                 width="264"
                 height="260"
               />
-              <h3 class="content-title">Tom Ford</h3>
-              <p class="text">Frontend Developer</p>
+              <h3 class="content-title content-title-team">Tom Ford</h3>
+              <p class="text text-team">Frontend Developer</p>
             </li>
             <li class="team-list-item">
               <img
@@ -119,8 +119,8 @@
                 width="264"
                 height="260"
               />
-              <h3 class="content-title">Camila Garcia</h3>
-              <p class="text">Marketing</p>
+              <h3 class="content-title content-title-team">Camila Garcia</h3>
+              <p class="text text-team">Marketing</p>
             </li>
             <li class="team-list-item">
               <img
@@ -129,8 +129,8 @@
                 width="264"
                 height="260"
               />
-              <h3 class="content-title">Daniel Wilson</h3>
-              <p class="text">UI Designer</p>
+              <h3 class="content-title content-title-team">Daniel Wilson</h3>
+              <p class="text text-team">UI Designer</p>
             </li>
           </ul>
         </div>
@@ -139,31 +139,45 @@
       <section>
         <div class="container">
           <h2 class="section-title">Our Portfolio</h2>
-          <ul>
+          <ul class="portfolio-list">
             <li>
               <img src="./images/img-11-min.jpg" alt="app" width="360" />
-              <h3 class="content-title">Banking App</h3>
-              <p class="text">App</p>
+              <div class="porfolio-wrap">
+                <h3 class="content-title content-title-port">Banking App</h3>
+                <p class="text text-port">App</p>
+              </div>
             </li>
             <li>
               <img src="./images/img-12-min.jpg" alt="terminal" width="360" />
-              <h3 class="content-title">Cashless Payment</h3>
-              <p class="text">Marketing</p>
+              <div class="porfolio-wrap">
+                <h3 class="content-title content-title-port">
+                  Cashless Payment
+                </h3>
+                <p class="text text-port">Marketing</p>
+              </div>
             </li>
             <li>
               <img src="./images/img-13-min.jpg" alt="laptop" width="360" />
-              <h3 class="content-title">Meditation App</h3>
-              <p class="text">App</p>
+              <div class="porfolio-wrap">
+                <h3 class="content-title content-title-port">Meditation App</h3>
+                <p class="text text-port">App</p>
+              </div>
             </li>
             <li>
               <img src="./images/img-14-min.jpg" alt="auto" width="360" />
-              <h3 class="content-title">Taxi Service</h3>
-              <p class="text">Marketing</p>
+              <div class="porfolio-wrap">
+                <h3 class="content-title content-title-port">Taxi Service</h3>
+                <p class="text text-port">Marketing</p>
+              </div>
             </li>
             <li>
               <img src="./images/img-15-min.jpg" alt="phone" width="360" />
-              <h3 class="content-title">Screen Illustrations</h3>
-              <p class="text">Design</p>
+              <div class="porfolio-wrap">
+                <h3 class="content-title content-title-port">
+                  Screen Illustrations
+                </h3>
+                <p class="text text-port">Design</p>
+              </div>
             </li>
             <li>
               <img
@@ -171,21 +185,24 @@
                 alt="girl in yellow sweater"
                 width="360"
               />
-              <h3 class="content-title">Online Courses</h3>
-              <p class="text">Marketing</p>
+              <div class="porfolio-wrap">
+                <h3 class="content-title content-title-port">Online Courses</h3>
+                <p class="text text-port">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
+      <div class="container container-footer">
         <a class="logo" href="./index.html"
           >Web<span class="logo-footer">Studio</span></a
         >
         <p class="text-footer">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
+          Increase the flow of customers and <br />
+          sales for your business with digital <br />
+          marketing & growth solutions.
         </p>
       </div>
     </footer>
