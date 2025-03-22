@@ -80,11 +80,11 @@ img {
   letter-spacing: 0.02em;
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .menu-links .link {
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .menu-links .link:hover,
@@ -119,9 +119,6 @@ img {
 
 .hero {
   background: #2e2f42;
-}
-
-.hero .container {
   padding: 188px 0;
 }
 
@@ -177,6 +174,10 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.advantages-list-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .advantages-list {
@@ -278,6 +279,10 @@ img {
 .logo-footer {
   color: #f4f4fd;
   display: inline-block;
+  margin-bottom: 16px;
+}
+
+.logo-main {
   margin-bottom: 16px;
 }
 
