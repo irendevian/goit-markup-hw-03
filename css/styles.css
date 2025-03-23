@@ -49,6 +49,7 @@ img {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  align-items: center;
 }
 
 .logo {
@@ -59,8 +60,11 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
   display: inline-block;
+}
+
+.logo-first {
+  margin-right: 76px;
 }
 
 .nav-list {
@@ -74,25 +78,34 @@ img {
 }
 
 .menu-links {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   display: flex;
   gap: 40px;
 }
 
-.menu-links .link {
+.menu-link-item {
   color: #2e2f42;
   padding: 24px 0;
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.menu-links .link:hover,
-.menu-links .link:focus {
+.menu-link-item:hover,
+.menu-link-item:focus {
   color: #404bbf;
 }
 
-.contact-links {
+.contact-links-list {
+  display: flex;
+  gap: 40px;
+}
+
+.contact-link-item {
+  color: #434455;
+  padding: 24px 0;
+  display: block;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -100,18 +113,8 @@ img {
   letter-spacing: 0.02em;
 }
 
-.contact-links-list {
-  display: flex;
-  gap: 40px;
-  padding: 24px 0;
-}
-
-.contact-links .link {
-  color: #434455;
-}
-
-.contact-links .link:hover,
-.contact-links .link:focus {
+.contact-link-item:hover,
+.contact-link-item:focus {
   color: #404bbf;
 }
 
@@ -191,8 +194,6 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  padding-bottom: 8px;
-  max-width: 264px;
 }
 
 .text {
@@ -201,7 +202,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  max-width: 264px;
 }
 
 .section-team {
@@ -221,10 +221,8 @@ img {
 }
 
 .team-list {
-  padding-bottom: 120px;
   display: flex;
   gap: 24px;
-  flex-wrap: wrap;
 }
 
 .team-list-item {
@@ -232,6 +230,7 @@ img {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  width: calc((100% - 48px) / 3);
 }
 
 .content-team-list {
@@ -278,7 +277,6 @@ img {
 .logo-footer {
   color: #f4f4fd;
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 .logo-main {
@@ -289,4 +287,5 @@ img {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   margin-left: 0;
+  max-width: 264px;
 }
